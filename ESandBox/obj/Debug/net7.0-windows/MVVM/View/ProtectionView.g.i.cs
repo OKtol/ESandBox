@@ -53,7 +53,7 @@ namespace ESandBox.MVVM.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ESandBox;component/mvvm/view/protectionview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ESandBox;V1.0.0.0;component/mvvm/view/protectionview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\MVVM\View\ProtectionView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
