@@ -4,11 +4,9 @@ C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\bin\Debug\net7.0-windows\ESandBo
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\bin\Debug\net7.0-windows\ESandBox.dll
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\bin\Debug\net7.0-windows\ESandBox.pdb
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\ESandBox.csproj.AssemblyReference.cache
-C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\MainWindow.g.cs
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\App.g.cs
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\ESandBox_MarkupCompile.cache
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\ESandBox_MarkupCompile.lref
-C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\MainWindow.baml
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\ESandBox.g.resources
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\ESandBox.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\ESandBox.AssemblyInfoInputs.cache
@@ -19,3 +17,6 @@ C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\refint\
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\ESandBox.pdb
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\ESandBox.genruntimeconfig.cache
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\ref\ESandBox.dll
+C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\MVVM\View\MainWindow.g.cs
+C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\MVVM\View\MainWindow.baml
