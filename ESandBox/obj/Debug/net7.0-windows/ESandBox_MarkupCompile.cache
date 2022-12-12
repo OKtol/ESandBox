@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\App.xaml
-2-1480930665
+31857642292
 
 82064480004
 198-1736014856
-MVVM\View\MainWindow.xaml;MVVM\View\ProtectionView.xaml;
+MVVM\View\MainWindow.xaml;MVVM\View\ProtectionView.xaml;Themes\TitlebarButton.xaml;
 
 False
 
