@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\App.xaml
-11121423476
+2-1480930665
 
-8-1925466609
+10961377780
 198-1736014856
-MVVM\View\MainWindow.xaml;
+MVVM\View\MainWindow.xaml;MVVM\View\ProtectionView.xaml;
 
-False
+True
 

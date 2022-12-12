@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using ESandBox.Core;
 
 namespace ESandBox.MVVM.ViewModel
@@ -14,6 +9,9 @@ namespace ESandBox.MVVM.ViewModel
 
         public MainViewModel()
         {
+            ProtectionViewModel = new ProtectionViewModel();
+            CurrentView = ProtectionViewModel;
+
             Application.Current.MainWindow.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
             MoveWindowCommand = new RelayCommand(o => { Application.Current.MainWindow.DragMove(); });
             ShutDownWindowCommand = new RelayCommand(o => { Application.Current.Shutdown(); });
@@ -28,6 +26,8 @@ namespace ESandBox.MVVM.ViewModel
                 Application.Current.MainWindow.WindowState = WindowState.Minimized; 
             });
         }
+
+        public ProtectionViewModel ProtectionViewModel { get; set; }
 
         public object CurrentView
         {
