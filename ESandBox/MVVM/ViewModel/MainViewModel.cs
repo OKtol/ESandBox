@@ -14,7 +14,7 @@ namespace ESandBox.MVVM.ViewModel
 
         public MainViewModel()
         {
-            Application.Current.MainWindow.MaxWidth = SystemParameters.MaximizedPrimaryScreenHeight;
+            Application.Current.MainWindow.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
             MoveWindowCommand = new RelayCommand(o => { Application.Current.MainWindow.DragMove(); });
             ShutDownWindowCommand = new RelayCommand(o => { Application.Current.Shutdown(); });
             MaximizeWindowCommand = new RelayCommand(o =>
