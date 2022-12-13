@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:view="clr-namespace:ESandBox.MVVM.View"
              xmlns:viewModel="clr-namespace:ESandBox.MVVM.ViewModel"
-             StartupUri="MVVM/View/MainWindow.xaml">
+             StartupUri="MVVM/View/MainWindowView.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -11,8 +11,8 @@
                 <ResourceDictionary Source="/Themes/TitlebarButton.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
-            <DataTemplate DataType="{x:Type viewModel:ProtectionViewModel}">
-                <view:ProtectionView/>
+            <DataTemplate DataType="{x:Type viewModel:MainFieldViewModel}">
+                <view:MainFieldView/>
             </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>

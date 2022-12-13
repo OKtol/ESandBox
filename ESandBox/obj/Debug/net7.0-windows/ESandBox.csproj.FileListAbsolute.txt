@@ -17,10 +17,12 @@ C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\refint\
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\ESandBox.pdb
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\ESandBox.genruntimeconfig.cache
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\ref\ESandBox.dll
-C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\MVVM\View\MainWindow.g.cs
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\GeneratedInternalTypeHelper.g.cs
-C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\MVVM\View\MainWindow.baml
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\MVVM\View\ProtectionView.g.cs
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\App.baml
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\MVVM\View\ProtectionView.baml
 C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\Themes\TitlebarButton.baml
+C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\MVVM\View\MainFieldView.baml
+C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\MVVM\View\MainFieldView.g.cs
+C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\MVVM\View\MainWindowView.g.cs
+C:\Users\OKtolka\Desktop\pets\ESandBox\ESandBox\obj\Debug\net7.0-windows\MVVM\View\MainWindowView.baml

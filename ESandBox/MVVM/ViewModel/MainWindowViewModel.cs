@@ -3,14 +3,14 @@ using ESandBox.Core;
 
 namespace ESandBox.MVVM.ViewModel
 {
-    class MainViewModel : ObservableObject
+    class MainWindowViewModel : ObservableObject
     {
         private object _currentView;
 
-        public MainViewModel()
+        public MainWindowViewModel()
         {
-            ProtectionViewModel = new ProtectionViewModel();
-            CurrentView = ProtectionViewModel;
+            MainFieldViewModel = new MainFieldViewModel();
+            _currentView = MainFieldViewModel;
 
             Application.Current.MainWindow.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
             MoveWindowCommand = new RelayCommand(o => { Application.Current.MainWindow.DragMove(); });
@@ -27,7 +27,7 @@ namespace ESandBox.MVVM.ViewModel
             });
         }
 
-        public ProtectionViewModel ProtectionViewModel { get; set; }
+        public MainFieldViewModel MainFieldViewModel { get; set; }
 
         public object CurrentView
         {
