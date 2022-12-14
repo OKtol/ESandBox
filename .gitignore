@@ -2,3 +2,7 @@
 ESandBox/obj/
 ESandBox/bin/
 
+*.v2
+*.2
+.vs/ESandBox/v17/.suo
+ESandBox/ESandBox.csproj.user
