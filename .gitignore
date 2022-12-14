@@ -1,3 +1,4 @@
-/.vs/
-/ESandBox/obj/
-/ESandBox/bin/
+.vs/
+ESandBox/obj/
+ESandBox/bin/
+
