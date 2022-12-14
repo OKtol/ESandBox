@@ -12,11 +12,10 @@
         Background="Transparent"
         AllowsTransparency="True"
         ResizeMode="CanResize">
-
     <Window.DataContext>
         <viewModel:MainWindowViewModel/>
     </Window.DataContext>
-    
+
     <DockPanel Background="#1e1e1e"
           Margin="8">
         <Border Height="28"

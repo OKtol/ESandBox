@@ -1,5 +1,7 @@
 ﻿using System.Windows;
 using ESandBox.Core;
+using ESandBox.MVVM.Model;
+using ESandBox.MVVM.View;
 
 namespace ESandBox.MVVM.ViewModel
 {
@@ -9,25 +11,15 @@ namespace ESandBox.MVVM.ViewModel
 
         public MainWindowViewModel()
         {
-            MainFieldViewModel = new MainFieldViewModel();
-            _currentView = MainFieldViewModel;
-
+            MainFieldView = new MainFieldView();
+            _currentView = MainFieldView;
             Application.Current.MainWindow.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
-            MoveWindowCommand = new RelayCommand(o => { Application.Current.MainWindow.DragMove(); });
-            ShutDownWindowCommand = new RelayCommand(o => { Application.Current.Shutdown(); });
-            MaximizeWindowCommand = new RelayCommand(o =>
-            {
-                if (Application.Current.MainWindow.WindowState == WindowState.Maximized)
-                    Application.Current.MainWindow.WindowState = WindowState.Normal;
-                else
-                    Application.Current.MainWindow.WindowState = WindowState.Maximized;
-            });
-            MinimizeWindowCommand = new RelayCommand(o => {
-                Application.Current.MainWindow.WindowState = WindowState.Minimized; 
-            });
+
+            InitializeCommands();
+            MainLoop.Start();
         }
 
-        public MainFieldViewModel MainFieldViewModel { get; set; }
+        public MainFieldView MainFieldView { get; set; }
 
         public object CurrentView
         {
@@ -40,11 +32,27 @@ namespace ESandBox.MVVM.ViewModel
         }
 
         #region Commands
-        public RelayCommand MoveWindowCommand { get; set; }
-        public RelayCommand ShutDownWindowCommand { get; set; }
-        public RelayCommand MaximizeWindowCommand { get; set; }
-        public RelayCommand MinimizeWindowCommand { get; set; }
+        public RelayCommand? MoveWindowCommand { get; set; }
+        public RelayCommand? ShutDownWindowCommand { get; set; }
+        public RelayCommand? MaximizeWindowCommand { get; set; }
+        public RelayCommand? MinimizeWindowCommand { get; set; }
 
         #endregion
+
+        private void InitializeCommands()
+        {
+            MoveWindowCommand = new RelayCommand(o => { Application.Current.MainWindow.DragMove(); });
+            ShutDownWindowCommand = new RelayCommand(o => { Application.Current.Shutdown(); });
+            MaximizeWindowCommand = new RelayCommand(o =>
+            {
+                if (Application.Current.MainWindow.WindowState == WindowState.Maximized)
+                    Application.Current.MainWindow.WindowState = WindowState.Normal;
+                else
+                    Application.Current.MainWindow.WindowState = WindowState.Maximized;
+            });
+            MinimizeWindowCommand = new RelayCommand(o => {
+                Application.Current.MainWindow.WindowState = WindowState.Minimized;
+            });
+        }
     }
 }

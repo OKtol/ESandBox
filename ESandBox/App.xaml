@@ -10,10 +10,6 @@
                 <!--Themes-->
                 <ResourceDictionary Source="/Themes/TitlebarButton.xaml"/>
             </ResourceDictionary.MergedDictionaries>
-
-            <DataTemplate DataType="{x:Type viewModel:MainFieldViewModel}">
-                <view:MainFieldView/>
-            </DataTemplate>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

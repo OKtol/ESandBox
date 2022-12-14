@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ESandBox.Core;
+using ESandBox.MVVM.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,10 +17,7 @@ using System.Windows.Shapes;
 
 namespace ESandBox.MVVM.View
 {
-    /// <summary>
-    /// Interaction logic for MainFieldView.xaml
-    /// </summary>
-    public partial class MainFieldView : UserControl
+    partial class MainFieldView : UserControl
     {
         public MainFieldView()
         {
