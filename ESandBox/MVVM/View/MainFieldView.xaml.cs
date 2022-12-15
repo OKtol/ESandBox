@@ -21,6 +21,7 @@ namespace ESandBox.MVVM.View
     {
         public MainFieldView()
         {
+            
             InitializeComponent();
         }
     }
