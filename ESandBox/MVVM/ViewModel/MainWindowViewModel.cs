@@ -1,7 +1,6 @@
 ﻿using System.Windows;
-using ESandBox.Core;
-using ESandBox.MVVM.Model;
-using ESandBox.MVVM.View;
+using ESandBox.Utility;
+using System.Windows.Controls;
 
 namespace ESandBox.MVVM.ViewModel
 {
@@ -11,15 +10,11 @@ namespace ESandBox.MVVM.ViewModel
 
         public MainWindowViewModel()
         {
-            MainFieldView = new MainFieldView();
-            _currentView = MainFieldView;
+            _currentView = new Canvas();
             Application.Current.MainWindow.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
 
             InitializeCommands();
-            MainLoop.Start();
         }
-
-        public MainFieldView MainFieldView { get; set; }
 
         public object CurrentView
         {

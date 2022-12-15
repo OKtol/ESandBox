@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ESandBox.Core
+namespace ESandBox.Utility
 {
     class Extensions
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace ESandBox.Core
+namespace ESandBox.Utility
 {
     class RelayCommand : ICommand
     {

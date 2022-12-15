@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace ESandBox.Core
+namespace ESandBox.Utility
 {
     class ObservableObject : INotifyPropertyChanged
     {

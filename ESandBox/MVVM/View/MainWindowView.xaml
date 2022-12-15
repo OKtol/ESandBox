@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewModel="clr-namespace:ESandBox.MVVM.ViewModel"
-        xmlns:extensions="clr-namespace:ESandBox.Core"
+        xmlns:extensions="clr-namespace:ESandBox.Utility"
         mc:Ignorable="d"
         Title="MainWindow" 
         Height="450" Width="800"
