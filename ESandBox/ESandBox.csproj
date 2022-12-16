@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Engine\Graphics\" />
+    <Folder Include="Engine\Controller\" />
+    <Folder Include="Engine\Resources\" />
+    <Folder Include="Engine\Timing\" />
     <Folder Include="MVVM\Model\" />
   </ItemGroup>
 
