@@ -6,22 +6,23 @@ namespace ESandBox.MVVM.ViewModel
 {
     class MainWindowViewModel : ObservableObject
     {
-        private object _currentView;
+        private Canvas _screen;
 
         public MainWindowViewModel()
         {
-            _currentView = new Canvas();
             Application.Current.MainWindow.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
+
+            _screen = new Canvas();
 
             InitializeCommands();
         }
 
-        public object CurrentView
+        public Canvas Screen
         {
-            get { return _currentView; }
+            get { return _screen; }
             set
             {
-                _currentView = value;
+                _screen = value;
                 OnPropertyChanged();
             }
         }

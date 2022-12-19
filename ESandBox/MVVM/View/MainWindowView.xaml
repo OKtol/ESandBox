@@ -11,10 +11,8 @@
         WindowStyle="None"
         Background="Transparent"
         AllowsTransparency="True"
-        ResizeMode="CanResize">
-    <Window.DataContext>
-        <viewModel:MainWindowViewModel/>
-    </Window.DataContext>
+        ResizeMode="CanResize"
+        WindowState="Maximized">
 
     <DockPanel Background="#1e1e1e"
           Margin="8">
@@ -106,7 +104,7 @@
             </StackPanel>
         </Border>
 
-        <ContentPresenter Content="{Binding CurrentView}"/>
+        <ContentPresenter Content="{Binding Screen}"/>
 
     </DockPanel>
 </Window>

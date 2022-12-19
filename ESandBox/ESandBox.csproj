@@ -8,11 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Engine\Graphics\" />
-    <Folder Include="Engine\Controller\" />
-    <Folder Include="Engine\Resources\" />
-    <Folder Include="Engine\Timing\" />
-    <Folder Include="MVVM\Model\" />
+    <ApplicationDefinition Remove="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MVVM\Model\Resources\Prototypes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="YamlDotNet" Version="12.2.1" />
   </ItemGroup>
 
 </Project>
